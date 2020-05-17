@@ -120,6 +120,19 @@ const cacheAssets =[
     'support.html',
     'wishlist-grid.html',
     'wishlist-list.html',
+    'android-chrome-192x192.png',
+    'android-chrome-256x256.png',
+    'favicon.ico',
+    'favicon/android-chrome-192x192.png',
+    'favicon/android-chrome-256x256.png',
+    'favicon/apple-touch-icon.png',
+    'favicon/browserconfig.xml',
+    'favicon/favicon-16x16.png',
+    'favicon/favicon-32x32.png',
+    'favicon/favicon.ico',
+    'favicon/mstile-150x150.png',
+    'favicon/safari-pinned-tab.svg',
+    'favicon/site.webmanifest'
 ]
 
 self.addEventListener('install',(event) =>{

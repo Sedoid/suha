@@ -37,6 +37,7 @@ const cacheAssets =[
     // 'fonts/fontawesome-webfont.woff2',
     'forget-password-success.html',
     'forget-password.html',
+    'home.html',
     'img/bg-img/1.jpg',
     'img/bg-img/10.jpg',
     'img/bg-img/11.jpg',
@@ -144,10 +145,38 @@ self.addEventListener('activate',()=>{
     console.log('Service worker activated');
 })
 
+// Monitor all online requests
 this.addEventListener('fetch',(event)=>{
-    // console.log(event.reaqwerty40uest)
+    // console.log(event.request)
     event.respondWith(
         fetch(event.request)
-        .catch(error => caches.match(event.request))
+        .then(
+                response => {
+//  file requests that are not found in the cache, save them
+
+                    // veryfying is file is stored in the cache
+                    catches.match(event.request)
+                    .catch(res =>{
+                        console.log('file not found in the cache')
+                        fetch(event.request)
+                        .then(res =>{
+                            console.log('just obtained the new found file from the response')
+                            // Make copy/clone of response
+                            const resClone = res.clone();
+                            // Open client cache
+                            caches
+                            .open('client')
+                            .then(cache =>{
+                                // Add new file to to cache
+                                cache.put(event.request,resClone);
+                            })
+                        })
+
+                    })
+                }
+            )
+        .catch(error => {
+            console.log('found the page from the cache');
+            caches.match(event.request)})
     )
 })

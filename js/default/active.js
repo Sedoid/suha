@@ -1,21 +1,21 @@
 (function ($) {
     'use strict';
 
-    var suhaWindow = $(window);
+    var KukiesMallWindow = $(window);
     var sideNavWrapper = $("#sidenavWrapper");
     var headerArea = $("#headerArea");
     var footerNav = $("#footerNav");
     var blackOverlay = $(".sidenav-black-overlay");
 
     // :: 1.0 Preloader
-    suhaWindow.on('load', function () {
+    KukiesMallWindow.on('load', function () {
         $('#preloader').fadeOut('1000', function () {
             $(this).remove();
         });
     });
 
     // :: 2.0 Navbar
-    $("#suhaNavbarToggler").on("click", function () {
+    $("#KukiesMallNavbarToggler").on("click", function () {
         sideNavWrapper.addClass("nav-active");
         headerArea.addClass("header-out");
         footerNav.addClass("footer-out");

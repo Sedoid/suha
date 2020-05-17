@@ -1,7 +1,7 @@
 /* -----------------------------------------
 [Master Stylesheet]
 
-Template Name: Suha - Multipurpose Ecommerce Mobile Template
+Template Name: KukiesMall - Multipurpose Ecommerce Mobile Template
 Template Author: Designing World
 Template Author URL: https://themeforest.net/user/designing-world/portfolio
 Version: 1.4.0
@@ -672,13 +672,13 @@ textarea:invalid {
       .top-search-form form button:focus {
         outline: none; }
 
-.suha-navbar-toggler {
+.KukiesMall-navbar-toggler {
   position: relative;
   z-index: 1;
   width: 26px;
   cursor: pointer;
   padding: .5rem 0; }
-  .suha-navbar-toggler span {
+  .KukiesMall-navbar-toggler span {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -690,20 +690,20 @@ textarea:invalid {
     height: 2px;
     background-color: #747794;
     margin-bottom: 4px; }
-    .suha-navbar-toggler span:nth-child(2) {
+    .KukiesMall-navbar-toggler span:nth-child(2) {
       -webkit-box-flex: 0;
       -ms-flex: 0 0 12px;
       flex: 0 0 12px;
       min-width: 12px;
       width: 12px; }
-    .suha-navbar-toggler span:last-child {
+    .KukiesMall-navbar-toggler span:last-child {
       margin-bottom: 0;
       -webkit-box-flex: 0;
       -ms-flex: 0 0 17px;
       flex: 0 0 17px;
       min-width: 17px;
       width: 17px; }
-  .suha-navbar-toggler:hover span, .suha-navbar-toggler:focus span {
+  .KukiesMall-navbar-toggler:hover span, .KukiesMall-navbar-toggler:focus span {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 22px;
     flex: 0 0 22px;
@@ -777,7 +777,7 @@ textarea:invalid {
   margin-top: 50px;
   margin-bottom: 58px; }
 
-.suha-sidenav-wrapper {
+.KukiesMall-sidenav-wrapper {
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -792,7 +792,7 @@ textarea:invalid {
   background: linear-gradient(to left, #100DD1, #083afb);
   overflow-y: auto;
   width: 240px; }
-  .suha-sidenav-wrapper .go-home-btn {
+  .KukiesMall-sidenav-wrapper .go-home-btn {
     -webkit-transition-duration: 400ms;
     -o-transition-duration: 400ms;
     transition-duration: 400ms;
@@ -811,14 +811,14 @@ textarea:invalid {
     visibility: hidden;
     opacity: 0;
     font-size: 1.25rem; }
-    .suha-sidenav-wrapper .go-home-btn:hover, .suha-sidenav-wrapper .go-home-btn:focus {
+    .KukiesMall-sidenav-wrapper .go-home-btn:hover, .KukiesMall-sidenav-wrapper .go-home-btn:focus {
       background-color: #020310; }
-  .suha-sidenav-wrapper.nav-active {
+  .KukiesMall-sidenav-wrapper.nav-active {
     left: 0; }
-    .suha-sidenav-wrapper.nav-active .go-home-btn {
+    .KukiesMall-sidenav-wrapper.nav-active .go-home-btn {
       visibility: visible;
       opacity: 1; }
-  .suha-sidenav-wrapper.filter-nav {
+  .KukiesMall-sidenav-wrapper.filter-nav {
     background: #f8f8ff; }
 
 .sidenav-black-overlay {
@@ -2464,9 +2464,9 @@ textarea:invalid {
   .footer-nav-area.footer-out {
     bottom: -100px; }
 
-.suha-footer-nav ul {
+.KukiesMall-footer-nav ul {
   width: 100%; }
-  .suha-footer-nav ul li {
+  .KukiesMall-footer-nav ul li {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 20%;
     flex: 0 0 20%;
@@ -2474,7 +2474,7 @@ textarea:invalid {
     width: 20%;
     position: relative;
     z-index: 1; }
-    .suha-footer-nav ul li a {
+    .KukiesMall-footer-nav ul li a {
       display: block;
       font-size: 12px;
       text-align: center;
@@ -2482,17 +2482,17 @@ textarea:invalid {
       text-transform: capitalize;
       line-height: 1;
       color: #747794; }
-      .suha-footer-nav ul li a i {
+      .KukiesMall-footer-nav ul li a i {
         display: block;
         font-size: 18px;
         margin-bottom: 4px; }
-      .suha-footer-nav ul li a:hover, .suha-footer-nav ul li a:focus {
+      .KukiesMall-footer-nav ul li a:hover, .KukiesMall-footer-nav ul li a:focus {
         color: #100DD1; }
-      .suha-footer-nav ul li a img {
+      .KukiesMall-footer-nav ul li a img {
         max-height: 1.5rem;
         margin: 0 auto .25rem;
         display: block; }
-    .suha-footer-nav ul li.active a {
+    .KukiesMall-footer-nav ul li.active a {
       color: #100DD1; }
 
 /* CTA Area */
@@ -2911,12 +2911,12 @@ textarea:invalid {
   [data-theme="dark"] .card {
     border-color: #242644;
     background-color: #242644; }
-  [data-theme="dark"] .suha-footer-nav ul li a {
+  [data-theme="dark"] .KukiesMall-footer-nav ul li a {
     color: rgba(255, 255, 255, 0.8); }
-  [data-theme="dark"] .suha-footer-nav ul li.active a {
+  [data-theme="dark"] .KukiesMall-footer-nav ul li.active a {
     color: #ffaf00; }
-  [data-theme="dark"] .suha-footer-nav ul li a:hover,
-  [data-theme="dark"] .suha-footer-nav ul li a:focus {
+  [data-theme="dark"] .KukiesMall-footer-nav ul li a:hover,
+  [data-theme="dark"] .KukiesMall-footer-nav ul li a:focus {
     color: #ffaf00; }
   [data-theme="dark"] .top-search-form form .form-control {
     background-color: transparent;

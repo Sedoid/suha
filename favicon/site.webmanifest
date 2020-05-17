@@ -16,7 +16,7 @@
     ],
     "theme_color": "#37BC61",
     "background_color": "#ffffff",
-    "scope": "/",
+    "scope": "/suha",
     "start_url": "/suha/index.html",
     "display": "standalone"
 }
